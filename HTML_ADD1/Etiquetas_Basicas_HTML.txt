@@ -1,0 +1,59 @@
+<H1></H1> al <H6></H6> Encabezados de mayor a menor reelevancia
+<p></p> Parrafo 
+<ol><li></li></ol> Listas ordenadas 
+<ul><li></li></ul> Listas desordenadas 
+<a href="kslfflakshfl">nombre de web </a>
+Dentro de ancor "<a></a>" target="_blank" - Nueva pestaña / pagina ------ Si borramos "TARGET"= --- en la misma 
+<b></b> Negrita     1
+<i></i> Cursiva     2
+<strong></strong> + Carga semantica    1 
+<em></em> + Carga semantica    2
+<img /> imagen 
+alt, en caso de que no cargue, lo que se muestra 
+
+TABLAS
+3 etiquetas:
+<Table>
+</Table> TABLA 
+<tr>
+</tr> FILAS 
+<td></td> CELDAS
+
+HACER AGRUPACIONES SIN CARGA SEMANTICA 
+<div></div> ---- Contenido
+<span></span> ---- Texto o Elemento 
+Es para agrupar algo dentro de otras etiquetas 
+
+--------------------------------
+
+<header> Cabecera o seccion de presentacion de un bloque 
+<main> Seccion principal del contenido 
+<footer> Pie de pagina
+<nav> Bloque de navegacion / Menu 
+<aside> contenido de menor importancia o relacionado
+<article> Articulos, entradas de blog, mensaje de foro, estilo 
+
+TODO SE PUEDE REEMPLAZAR CON UN <div></div> Ya que es para contener informacion pero lo importante es la semantica
+
+Hay etiquetas de bloque (block) y de linea (Inline) 
+
+BLOCK: <address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt>
+<fieldset> <figcaption> <figure> <footer> <form> <h1>;<h6> <header> <hr> <li>
+<main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ol> <video>
+
+***OCUPAN TODO EL ANCHO DEL PROYECTO***
+
+INLINE: <a> <abbr> <acronym> <b> <bdo> <big> <br> <button> <cite> <code> <dfn>
+<em> <i> <img> <input> <kbd> <label> <map> <object> <output> <q> <samp> <script>
+
+*****<select> <small> <span> <strong>*****
+
+
+----------------------------------------------------------------------
+
+Ejemplo para redireccionar
+<a.href="laotrapaginacreada.html">Lo que dice ORIGINAL</>
+<footer id="Desc."> SEMANTICA 
+
+PARA QUE VAYA ABAJO O DONDE MARQUE:
+<a.href="#footer">LO QUE DICE</a>
